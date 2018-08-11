@@ -17,12 +17,12 @@ const NavTabs = props => (
             </li>
             <li className="nav-item">
                 <a
-                    onClick={() => props.handlePageChange("Superarm Gallery")}
+                    onClick={() => props.handlePageChange("Gallery")}
                     className={
-                        props.currentPage === "Superarm Gallery" ? "nav-link active" : "nav-link"
+                        props.currentPage === "Gallery" ? "nav-link active" : "nav-link"
                     }
                 >
-                    SA Gallery
+                    Superarm Gallery
                 </a>
             </li>
             <li className="nav-item">

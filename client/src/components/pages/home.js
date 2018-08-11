@@ -2,7 +2,7 @@ import React from 'react';
 import metris1 from '../../assets/images/Metris-2016-a.jpg';
 import metris2 from '../../assets/images/Metris-2016-b.jpg';
 import metris3 from '../../assets/images/Metris-2016-c.jpg';
-import {Carousel} from 'react-bootstrap';
+import { Carousel } from 'react-bootstrap';
 
 const Home = () => (
 
@@ -26,10 +26,31 @@ const Home = () => (
                     <h3>2016 Mercedes Metris Door Close-Up</h3>
                 </Carousel.Caption>
             </Carousel.Item>
-        </Carousel>;        <p className="App-intro">
-            Placeholder text about the company
-        </p>
-
+        </Carousel>
+        <div id="homeTabHolder">
+            <div className="homeTab">
+                <img alt="Jerry, Founder" />
+                <h3>
+                    Perfect for all
+                </h3>
+                <p>
+                    The need for a hand driving control for disabled persons was realized in 1954.
+                </p>
+                <button href="#"/>
+            </div>
+            <div className="homeTab">
+                <img alt="MP, user"/>
+                <h3>Gallery</h3>
+                <p>Would you like to see more? Click here to check out our gallery section!</p>
+                <button href="#"/>
+            </div>
+            <div className="homeTab">
+                <img alt="User on Sling"/>
+                <h3>Powerful Framwork</h3>
+                <p>Have any questions? Contact us today for assistance</p>
+                <button href="#"/>
+            </div>
+        </div>
     </div>
 )
 

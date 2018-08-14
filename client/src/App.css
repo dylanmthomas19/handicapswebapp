@@ -22,6 +22,10 @@
 .App-intro {
   font-size: large;
 }
+.metrisThumb{
+  height: 150px;
+  width: 150px;
+}
 .homeTab{
   width: 30%;
   height: 100%;
@@ -45,6 +49,20 @@
 }
 #homeTabHolder{
   width: 100%;
+}
+#galleryP{
+  text-align: left;
+  width: 75%;
+  padding-left: 10px;
+}
+#metThumb1{
+  left: 0px;
+}
+#metThumb2{
+  padding: 5px;
+}
+#metThumb3{
+  right: 0px;
 }
 #fbIcon{
   right: 0px;

@@ -28,7 +28,7 @@ const Home = () => (
             </Carousel.Item>
         </Carousel>
         <div id="homeTabHolder">
-            <div className="homeTab">
+            <span id="homeTab1">
                 <img alt="Jerry, Founder" />
                 <h3>
                     Perfect for all
@@ -37,19 +37,19 @@ const Home = () => (
                     The need for a hand driving control for disabled persons was realized in 1954.
                 </p>
                 <button href="#"/>
-            </div>
-            <div className="homeTab">
+            </span>
+            <span id="homeTab2">
                 <img alt="MP, user"/>
                 <h3>Gallery</h3>
                 <p>Would you like to see more? Click here to check out our gallery section!</p>
                 <button href="#"/>
-            </div>
-            <div className="homeTab">
+            </span>
+            <span id="homeTab3">
                 <img alt="User on Sling"/>
                 <h3>Powerful Framwork</h3>
                 <p>Have any questions? Contact us today for assistance</p>
                 <button href="#"/>
-            </div>
+            </span>
         </div>
     </div>
 )

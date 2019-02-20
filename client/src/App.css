@@ -22,17 +22,6 @@
 .App-intro {
   font-size: large;
 }
-.metrisThumb{
-  height: 150px;
-  width: 150px;
-}
-.homeTab{
-  width: 30%;
-  height: 100%;
-  border: 5px;
-  background-color: black;
-  border-color: brown;
-}
 .nav{
   background-color: black;
 }
@@ -45,10 +34,25 @@
   border-color: grey;
 }
 #banner{
-  width: 100%;
+  width: 60%;
 }
 #homeTabHolder{
   width: 100%;
+}
+#homeTab1{
+  width: 100px;
+  position: relative;
+  left:-300px;
+}
+#homeTab2{
+  width: 30%;
+  position: relative;
+  padding: 5px;
+}
+#homeTab3{
+  width: 30%;
+  position: relative;
+  right: -10px;
 }
 #galleryP{
   text-align: left;
@@ -57,12 +61,18 @@
 }
 #metThumb1{
   left: 0px;
+  height: 150px;
+  width: 150px;
 }
 #metThumb2{
   padding: 5px;
+  height: 150px;
+  width: 150px;
 }
 #metThumb3{
   right: 0px;
+  height: 150px;
+  width: 150px;
 }
 #fbIcon{
   right: 0px;
